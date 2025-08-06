@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Schedule Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/ics@3.7.6/dist/bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Course Schedule Manager</h1>
+            <p class="header__description">Select your courses and visualize your weekly schedule</p>
+        </header>
+
+        <!-- Course Selection Section -->
+        <section class="course-selection">
+            <div class="course-selection__header">
+                <h2>Select Courses</h2>
+                <div class="search-container">
+                    <input 
+                        type="text" 
+                        class="form-control search-input" 
+                        placeholder="Search courses by code or name..."
+                        id="courseSearch"
+                        autocomplete="off"
+                    >
+                    <div class="dropdown hidden" id="courseDropdown">
+                        <div class="dropdown__content" id="dropdownContent"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Selected Courses Display -->
+            <div class="selected-courses" id="selectedCourses">
+                <div class="selected-courses__label">Selected Courses:</div>
+                <div class="selected-courses__list" id="selectedCoursesList"></div>
+            </div>
+        </section>
+
+        <!-- Conflict Warning -->
+        <div class="conflict-warning hidden" id="conflictWarning" style="margin-bottom: 1.5rem;">
+            <div class="status status--warning" style="display: flex; align-items: center; border-radius: 2rem; padding: 0.75rem 1.5rem; font-size: 1rem;">
+                <span style="font-weight: bold; margin-right: 0.5em; display: flex; align-items: center;">
+                    ⚠️ <span style="margin-left: 0.5em;">Schedule Conflicts Detected.</span>
+                </span>
+                <span style="margin-left: 0.75em;">
+                    Some courses have overlapping time slots. Conflicting sessions are highlighted in red.
+                </span>
+            </div>
+        </div>
+
+        <!-- Calendar Section -->
+        <section class="calendar-section">
+            <div class="calendar-header">
+                <h2>Weekly Schedule</h2>
+                <div class="export-controls">
+                    <button class="btn btn--sm btn--outline" id="exportICS">
+                        <span>📅</span> Export ICS
+                    </button>
+                    <button class="btn btn--sm btn--outline" id="exportPDF">
+                        <span>📄</span> Export PDF
+                    </button>
+                    <button class="btn btn--sm btn--outline" id="exportPNG">
+                        <span>🖼️</span> Export PNG
+                    </button>
+                </div>
+            </div>
+            
+            <div class="calendar-container">
+                <div class="calendar-grid" id="calendarGrid">
+                    <!-- Time column -->
+                    <div class="time-column">
+                        <div class="time-header"></div>
+                        <div class="time-slot">08:00</div>
+                        <div class="time-slot">08:30</div>
+                        <div class="time-slot">09:00</div>
+                        <div class="time-slot">09:30</div>
+                        <div class="time-slot">10:00</div>
+                        <div class="time-slot">10:30</div>
+                        <div class="time-slot">11:00</div>
+                        <div class="time-slot">11:30</div>
+                        <div class="time-slot">12:00</div>
+                        <div class="time-slot">12:30</div>
+                        <div class="time-slot">13:00</div>
+                        <div class="time-slot">13:30</div>
+                        <div class="time-slot">14:00</div>
+                        <div class="time-slot">14:30</div>
+                        <div class="time-slot">15:00</div>
+                        <div class="time-slot">15:30</div>
+                        <div class="time-slot">16:00</div>
+                        <div class="time-slot">16:30</div>
+                        <div class="time-slot">17:00</div>
+                        <div class="time-slot">17:30</div>
+                        <div class="time-slot">18:00</div>
+                        <div class="time-slot">18:30</div>
+                        <div class="time-slot">19:00</div>
+                        <div class="time-slot">19:30</div>
+                    </div>
+                    
+                    <!-- Day columns -->
+                    <div class="day-column" data-day="Mon">
+                        <div class="day-header">Monday</div>
+                        <div class="day-slots" id="Monday"></div>
+                    </div>
+                    <div class="day-column" data-day="Tue">
+                        <div class="day-header">Tuesday</div>
+                        <div class="day-slots" id="Tuesday"></div>
+                    </div>
+                    <div class="day-column" data-day="Wed">
+                        <div class="day-header">Wednesday</div>
+                        <div class="day-slots" id="Wednesday"></div>
+                    </div>
+                    <div class="day-column" data-day="Thu">
+                        <div class="day-header">Thursday</div>
+                        <div class="day-slots" id="Thursday"></div>
+                    </div>
+                    <div class="day-column" data-day="Fri">
+                        <div class="day-header">Friday</div>
+                        <div class="day-slots" id="Friday"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Tooltip -->
+    <div class="tooltip hidden" id="tooltip">
+        <div class="tooltip__content"></div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay hidden" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Generating export...</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

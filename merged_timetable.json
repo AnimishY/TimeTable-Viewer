@@ -1,0 +1,728 @@
+{
+  "timetable": [
+    {
+      "courseCode": "BIO549",
+      "courseName": "Computational Metagenomics",
+      "classroom": "C03",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE643 - A",
+      "courseName": "Artificial Intelligence A",
+      "classroom": "C102",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE643 - B",
+      "courseName": "Artificial Intelligence - B",
+      "classroom": "C02",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "MTH576",
+      "courseName": "Categorical Data Analysis",
+      "classroom": "C13",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "DES526/DES307",
+      "courseName": "Motion Design and Graphics",
+      "classroom": "B407",
+      "sessions": [
+        {
+          "label": "",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECE570",
+      "courseName": "Linear Systems Theory",
+      "classroom": "C210",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECE525",
+      "courseName": "Quantum Mechanics",
+      "classroom": "C11",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "MTH535",
+      "courseName": "Measure and Probability Theory",
+      "classroom": "A106",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "SOC311/SOC501",
+      "courseName": "Advanced Ethnographic and Qualitative Research Methods",
+      "classroom": "C211",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "SOC302/507",
+      "courseName": "Urban Sociology",
+      "classroom": "C24",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Tue",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 1",
+          "day": "Thu",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "BIO321",
+      "courseName": "Algorithms in Bioinformatics",
+      "classroom": "A106",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "BIO523",
+      "courseName": "Chemoinformatics",
+      "classroom": "A007",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE557",
+      "courseName": "Big Data Analytics",
+      "classroom": "C01",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE347/CSE547/DES525/DES306",
+      "courseName": "Usable Security and Privacy",
+      "classroom": "C13",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "DES501",
+      "courseName": "Fundamentals of Audio for Engineers",
+      "classroom": "C12",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Tutorial",
+          "slotCode": null,
+          "day": "Wed",
+          "startTime": "13:30",
+          "endTime": "15:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE511/ECE511",
+      "courseName": "Computer Architecture",
+      "classroom": "C21",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECE530",
+      "courseName": "Quantum Communication and Networks",
+      "classroom": "C208",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE589",
+      "courseName": "Large Deep Learning Systems",
+      "classroom": "A006",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "SSH728",
+      "courseName": "Kant's Critique of Pure Reason",
+      "classroom": "C22",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECO323/523",
+      "courseName": "Causal Inference",
+      "classroom": "B001",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Wed",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 9",
+          "day": "Fri",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "BIO542",
+      "courseName": "Machine Learning for Biomedical Applications",
+      "classroom": "A106",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE232",
+      "courseName": "Computer Networks A",
+      "classroom": "C11",
+      "sessions": [
+        {
+          "label": "Tutorial",
+          "slotCode": null,
+          "day": "Tue",
+          "startTime": "12:30",
+          "endTime": "13:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE232-B",
+      "courseName": "Computer Networks B",
+      "classroom": "C21",
+      "sessions": [
+        {
+          "label": "Tutorial",
+          "slotCode": null,
+          "day": "Tue",
+          "startTime": "12:30",
+          "endTime": "13:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECE564/CSE564",
+      "courseName": "Reinforcement Learning",
+      "classroom": "B002",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ECE677/CSE677",
+      "courseName": "Advances in Deep Learning",
+      "classroom": "C24",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "MTH340",
+      "courseName": "Real Analysis-II",
+      "classroom": "C208",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "MTH519A",
+      "courseName": "Distribution of Sequences in Number Theory",
+      "classroom": "B001",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "PSY307/507",
+      "courseName": "Neuroscience of Decision Making",
+      "classroom": "B105",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "SSH300",
+      "courseName": "Theories of Ethics",
+      "classroom": "C12",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE656",
+      "courseName": "Information Integration and Applications",
+      "classroom": "A007",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Mon",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 4",
+          "day": "Wed",
+          "startTime": "09:30",
+          "endTime": "11:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "COM301A",
+      "courseName": "Technical Communication",
+      "classroom": "C102",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot A",
+          "day": "Wed",
+          "startTime": "12:30",
+          "endTime": "14:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "ESC205",
+      "courseName": "ESC205",
+      "classroom": "C102",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": null,
+          "day": "Thu",
+          "startTime": "13:30",
+          "endTime": "15:00"
+        }
+      ]
+    },
+    {
+      "courseCode": "CSE600/ECE600/ECE600A",
+      "courseName": "Object Oriented Programming and Design",
+      "classroom": "C101",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 10",
+          "day": "Mon",
+          "startTime": "18:00",
+          "endTime": "19:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 10",
+          "day": "Wed",
+          "startTime": "18:00",
+          "endTime": "19:30"
+        }
+      ]
+    },
+    {
+      "courseCode": "MTH536",
+      "courseName": "Random Walk and Brownian Motion",
+      "classroom": "C213",
+      "sessions": [
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 11",
+          "day": "Tue",
+          "startTime": "18:00",
+          "endTime": "19:30"
+        },
+        {
+          "label": "Lecture",
+          "slotCode": "Slot 11",
+          "day": "Thu",
+          "startTime": "18:00",
+          "endTime": "19:30"
+        }
+      ]
+    }
+  ],
+  "generatedAt": "2025-08-06T06:38:41.061Z",
+  "totalCourses": 34,
+  "totalSessions": 69
+}
